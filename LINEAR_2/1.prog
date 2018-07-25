@@ -1,0 +1,11 @@
+;LINEAR test13
+;LINEAR whit INC command general case
+X0 Y0 Z0
+
+ABS
+X30 Y-30 Z-30
+
+INC
+LINEAR
+	X-20 Y40 Z35
+;AXIS,stop

@@ -1,0 +1,7 @@
+;DWELL test7
+;DWELL decimal piont test
+X0 Y0 Z0
+
+DWELL0.5
+X-20 Y-20 Z20
+;AXIS,stop

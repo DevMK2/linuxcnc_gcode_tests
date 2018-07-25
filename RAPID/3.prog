@@ -1,0 +1,8 @@
+;RAPID test3
+;RAPID command write on a line
+TM1000
+LINEAR
+	X0 Y0 Z0
+
+RAPID X-10 Y-10 Z10
+;AXIS,stop

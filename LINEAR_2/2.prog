@@ -1,0 +1,11 @@
+;LINEAR test14
+;LINEAR with ABS command general case
+ABS
+X0 Y0 Z0
+INC
+X10 Y10 Z5
+
+ABS
+LINEAR
+	X-10 Y10 Z-5
+;AXIS,stop

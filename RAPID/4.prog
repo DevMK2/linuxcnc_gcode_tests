@@ -1,0 +1,10 @@
+;RAPID test4
+;RAPID DWELL command test1
+TM1000
+X0 Y0 Z0
+
+DWELL3000
+RAPID
+	X10 Y-10 Z-10
+;AXIS,stop
+

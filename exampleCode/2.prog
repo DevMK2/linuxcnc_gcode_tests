@@ -1,0 +1,35 @@
+WHILE 1
+   ABS
+   RAPID
+      X0 Y0
+   TM500
+   LINEAR
+      X0 Y200
+      X0 Y0
+      X0 Y100
+      
+      X40
+      Y200
+      Y0
+      Y100
+      
+      X80
+      Y200
+      Y0
+      Y100
+      
+      X120
+      Y200
+      Y0
+      Y100
+      
+      X160
+      Y200
+      Y0
+      Y100
+      
+      X200
+      Y200
+      Y0
+      ;AXIS,stop
+ENDWHILE

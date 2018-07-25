@@ -1,0 +1,9 @@
+;RAPID test2
+;RAPID lower case test
+TM1000
+LINEAR
+	X0 Y0 Z0
+
+rapid
+	X-10 Y10 Z-5
+;AXIS,stop

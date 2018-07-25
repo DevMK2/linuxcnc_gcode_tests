@@ -1,0 +1,10 @@
+;AXIS_DATA test9
+X0 Y0 Z0
+
+q=-10
+t=30
+r=40
+
+X(-3*q) Y(t) Z((r/2)-(q/2))
+
+;AXIS_stop

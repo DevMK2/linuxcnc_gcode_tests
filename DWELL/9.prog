@@ -1,0 +1,8 @@
+;DWELL test9
+;DWELL <ENTER-key> value test
+X0 Y0 Z0
+
+DWELL
+	3000
+X30 Y30 Z25
+;AXIS,stop

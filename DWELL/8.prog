@@ -1,0 +1,8 @@
+;DWELL test8
+;DWELL max value test
+X0 Y0 Z0
+
+;max value = 2h 20m 
+DWELL83886088
+X20 Y-20 Z-20
+;AXIS, stop

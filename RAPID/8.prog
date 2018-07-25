@@ -1,0 +1,11 @@
+;RAPID test8
+;RAPID ABS general case test
+TM1000
+X0 Y0 Z0
+INC
+X-20 Y-20 Z20
+
+ABS
+RAPID
+	X20 Y-20 Z-20
+;AXIS,stop

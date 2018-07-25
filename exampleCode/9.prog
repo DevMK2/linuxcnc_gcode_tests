@@ -1,0 +1,16 @@
+;Spline practice
+
+TM1000
+ABS
+	X0 Y0 Z0
+INC
+P1=0
+	;AXIS,stop
+WHILE (P1<1)
+	CIRCLE1
+		NORMAL J5
+		X0 Z-5 I5 K5
+	LINEAR
+		X(P1*5) Y(5*P1) Z5
+	P1=P1+1
+ENDWHILE

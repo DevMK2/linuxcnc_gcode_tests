@@ -1,0 +1,6 @@
+;CIRCLE1 test12
+;CIRCLE1 normal command position test3
+X0 Y0 Z0
+
+CIRCLE1
+	X0 Y-30 Z30 I-15 J-15 K15

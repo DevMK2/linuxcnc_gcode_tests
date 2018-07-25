@@ -1,0 +1,5 @@
+;AXIS_DATA test7
+X0 Y0 Z0
+
+X -20 Y -20 Z 20
+;AXIS_stop

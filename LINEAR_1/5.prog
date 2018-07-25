@@ -1,0 +1,8 @@
+;LINEAR test5
+;LIENAR with TA command2
+X0 Y0 Z0
+
+LINEAR
+	TA2000
+	X20 Y20 Z15
+;AXIS,stop

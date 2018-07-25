@@ -1,0 +1,57 @@
+;First Test
+;Second Test
+
+P1=0
+P2=1
+WHILE 1
+	ABS
+	RAPID
+		X0 Y0
+	TM1000
+	INC
+	LINEAR
+		X10 Y10
+	IF(P1>1)
+		X20 Y20
+	ENDIF
+
+	IF(P1>2)
+		X20 Y20
+	ENDIF
+
+;	IF(P3=1)
+	IF(P1>3)
+		Y10 Z10
+		CIRCLE1
+			X-50 Y-30 I150 J150
+			X10 Y10 I5 J5
+			Z0
+			X25 Y5 Z30
+		P1=0
+		P2=-1
+	ENDIF
+;	ENDIF	
+
+	IF(P1<0)
+		CIRCLE2
+			ABS
+			X20 Y20 I10 
+		IF(P1<-1)
+			CIRCLE2
+				Y10 Z10 K15
+		ENDIF
+		IF(P1<-2)
+			CIRCLE2
+				X20 Y20 I10
+				X25 Y15 J-5
+;			LINEAR
+				Z0
+				X25 Y5 Z30
+			P1=0
+			P2=1
+		ENDIF
+
+	ENDIF
+	P1=P1+P2
+	;AXIS,stop
+ENDWHILE

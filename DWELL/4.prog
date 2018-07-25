@@ -1,0 +1,10 @@
+DWELL test4
+;DWELL variable test
+X0 Y0 Z0
+
+P1=4000
+P2=2000
+
+DWELL((P1+P2)/2)
+X10 Y-10 Z-10
+;AXIS,stop

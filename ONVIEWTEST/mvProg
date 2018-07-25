@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo -e "추가할 프로그램 번호 입력 : \c"
+read target 
+cursor=11
+
+r=${target//[0-9]/}
+if [ -z "$r" ];then
+	while [ $target -le $cursor ]
+	do
+		((next=${cursor}+1))
+		mv "$cursor".prog "$next".prog
+		((cursor=${cursor}-1))
+	done
+else
+	echo "$target is not number."
+fi

@@ -1,0 +1,12 @@
+;CIRCLE1 test4
+;CIRCLE1 TA command position test3
+X0 Y0 Z0
+
+CIRCLE1
+	X-10 Y-10 Z0 I-5 J-5 K0
+	TA1000
+	X10 Y-10 Z0 I10 J0 K0
+INC
+RAPID
+	Z-10
+;AXIS,stop

@@ -1,0 +1,7 @@
+;DWELL test2
+;dwell Lower case test
+X0 Y0 Z0
+
+dwell3000
+X-10 Y10 Z-5
+;AXIS,stop

@@ -1,0 +1,8 @@
+;DWELL test1
+;DWELL general case
+X0 Y0 Z0
+
+DWELL3000
+X10 Y10 Z5
+;AXIS,stop
+

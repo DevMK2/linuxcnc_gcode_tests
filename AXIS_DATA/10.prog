@@ -1,0 +1,8 @@
+;AXIS_DATA test10
+X0 Y0 Z0
+P1=-30
+P2=30
+P3=-25
+
+XP1 YP2 ZP3
+;AXIS_stop

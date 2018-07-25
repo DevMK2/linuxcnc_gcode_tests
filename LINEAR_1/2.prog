@@ -1,0 +1,7 @@
+;LINEAR test2
+;LINEAR lower case test
+X0 Y0 Z0
+
+linear
+	X-10 Y10 Z-5
+;AXIS,stop

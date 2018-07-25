@@ -1,0 +1,10 @@
+;LINEAR test4
+;LINEAR with TA command1
+X0 Y0 Z0
+
+TA3000
+LINEAR
+	X10 Y-10 Z-10
+;AXIS,stop
+
+

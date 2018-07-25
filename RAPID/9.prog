@@ -1,0 +1,13 @@
+;RAPID test15
+;RAPID with INC command2
+;##     this test is dependent on a ABS command     ##
+;## ABS cmmand general case test -> RAPID/8.prog ##
+TM1000
+X0 Y0 Z0
+ABS
+X20 Y-20 Z-20
+
+RAPID
+	INC
+	X10 Y50 Z45
+;AXIS,stop

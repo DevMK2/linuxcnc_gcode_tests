@@ -1,0 +1,14 @@
+#!/bin/bash
+argc=$#
+argv1=$1
+
+if [ 0 -eq $argc ];then
+	echo "argc : "$argc""
+	exit 0
+else
+	cp -f registProg "$argv1"
+	cp -f testCodeCopy "$argv1"
+	cp -f mvProg "$argv1"
+fi
+
+

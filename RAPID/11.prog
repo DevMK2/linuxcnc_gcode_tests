@@ -1,0 +1,13 @@
+;RAPID test11
+;RAPID INC test3
+TM
+X0 Y0 Z0
+
+ABS
+RAPID
+	X-30 Y30 Z-25
+	INC
+	X0 Y-60 Z55
+;AXIS,stop
+
+

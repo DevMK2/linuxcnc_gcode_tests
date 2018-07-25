@@ -1,0 +1,11 @@
+;CIRCLE1 test5
+;CIRCLE1 TM command position test1
+X0 Y0 Z0
+
+CIRCLE1
+	TM3000
+	X20 Y20 Z0 I10 J10 K0
+INC
+RAPID
+	Z15
+;AXIS,stop

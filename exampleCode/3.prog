@@ -1,0 +1,45 @@
+;Normal command test
+TM3000
+WHILE 1
+   ABS
+   INC(R)
+   RAPID
+      X50 Y50 Z0
+
+   NORMAL K1
+   CIRCLE1
+      X150 Y50 I100
+   CIRCLE2
+      X50 Y50 I-100
+
+   NORMAL K-1
+   CIRCLE1
+      X150 Y50 I100
+   CIRCLE2
+      X50 Y50 I-100
+
+   NORMAL I1
+   CIRCLE1
+      Y150 Z50 J100
+   CIRCLE2
+      Y50 Z50 J-100
+
+   NORMAL I-1
+   CIRCLE1
+      Y150 Z50 J100
+   CIRCLE2
+      Y50 Z50 J-100
+
+   NORMAL J1
+   CIRCLE1
+      Z150 X50 K100
+   CIRCLE2
+      Z50 X50 K-100
+
+   NORMAL J-1
+   CIRCLE1
+      Z150 X50 K100
+   CIRCLE2
+      Z50 X50 K-100
+   ;AXIS,stop
+ENDWHILE

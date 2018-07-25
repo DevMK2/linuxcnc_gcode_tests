@@ -1,0 +1,10 @@
+;RAPID test1
+;RAPID general case
+TM1000
+LINEAR
+	X0 Y0 Z0
+
+RAPID
+	X10 Y10 Z5
+;AXIS,stop
+

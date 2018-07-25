@@ -1,0 +1,11 @@
+;CIRCLE1 test7
+;CIRCLE1 DWELL command position test1
+X0 Y0 Z0
+
+DWELL3000
+CIRCLE1
+	X-20 Y-20 Z0 I-10 Y-10 Z0
+INC
+RAPID
+	Z20
+;AXIS,stop

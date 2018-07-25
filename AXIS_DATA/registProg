@@ -1,0 +1,27 @@
+#!/bin/bash
+
+blank=1
+cursor=1
+castaway=1
+maxcursor=12
+
+while [ $cursor -lt $maxcursor ]
+do
+	if [ -e "$cursor".prog ];then
+		echo ""$cursor".prog exist"	
+	else
+		blank=${cursor}
+		castaway=${cursor}
+		while [ $castaway -le $maxcursor ]
+		do
+			if [ -e "$castaway".prog ];then
+				mv "$castaway".prog "$blank".prog
+				echo ""$castaway".prog mv to "$blank".prog"
+				break
+			fi
+			((castaway=${castaway}+1))
+		done 
+	fi
+	((cursor=${cursor}+1))
+done
+

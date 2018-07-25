@@ -1,0 +1,10 @@
+;CIRCLE1 test1
+;CIRCLE1 lower case test
+X0 Y0 Z0
+
+circle1
+	X10 Y10 Z0 I5 J5 K0
+INC
+RAPID
+	Z5	
+;AXIS,stop

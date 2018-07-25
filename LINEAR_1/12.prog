@@ -1,0 +1,9 @@
+;LIENAR test12
+;LINEAR with DWELL command3
+X0 Y0 Z0
+
+LINEAR
+	X-30 Y-30 Z30
+	DWELL1000
+	X30 Y-30 Z-30
+;AXIS,stop

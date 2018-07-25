@@ -1,0 +1,8 @@
+;CIRCLE test
+;CIRCLE command without number
+X0 Y0 Z0
+TM1000
+
+CIRCLE
+	X10 Y10 Z0 I5 J5 K0
+;AXIS,stop

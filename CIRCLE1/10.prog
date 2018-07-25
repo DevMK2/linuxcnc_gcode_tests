@@ -1,0 +1,10 @@
+;CIRLCE1 test10
+;CIRCLE1 normal command position test1
+X0 Y0 Z0
+
+CIRCLE1
+	X-30 Y30 Z-25 I-15 J15 K-12.5
+INC
+RAPID
+	Z-25
+;AXIS,stop

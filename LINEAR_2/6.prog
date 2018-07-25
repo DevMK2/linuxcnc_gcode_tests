@@ -1,0 +1,13 @@
+;LINEAR test18
+;LINEAR with ABS command3
+;##     this test is dependent on a INC command     ##
+;## INC cmmand general case test -> LINEAR_2/1.prog ##
+ABS
+X0 Y0 Z0
+
+INC
+LINEAR
+	X20 Y20 Z15
+	ABS
+	X-20 Y20 Z-15
+;AXIS,stop

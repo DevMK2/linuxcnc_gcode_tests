@@ -1,0 +1,12 @@
+;RAPID test10
+;RAPID ABS comman test2
+TM1000
+ABS
+X0 Y0 Z0
+INC
+X30 Y30 Z25
+
+RAPID
+	ABS
+	X-30 Y30 Z-25
+;AXIS,stop

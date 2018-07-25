@@ -1,0 +1,36 @@
+;Increment mode test
+WHILE 1
+   ABS
+   RAPID
+      X0 Y0    ; Rapid move
+
+   TM500 ; TM value set
+   INC(X)
+   ABS(R)
+   LINEAR
+      X200 Y200 ; Linear move
+   CIRCLE1
+      X-100 Y100 I150 J150        ; Circle1 move
+
+   INC(R)
+   CIRCLE2
+      X-100 Y0 I-50 J-50        ; Circle2 move
+
+   INC(Y)
+   DWELL 1000
+   SPLINE1
+      X40 Y60  ; Spline move start
+      X40 Y-120 ; Spline move2
+      X40 Y120  ; Spline move3
+      X40 Y-120 ; Spline move4
+      X40 Y60 ; Spline move5
+
+   ABS
+   LINEAR
+      X200 Y200 ; Linear move
+
+   INC
+   LINEAR
+      X-100 Y0
+   ;AXIS,stop
+ENDWHILE

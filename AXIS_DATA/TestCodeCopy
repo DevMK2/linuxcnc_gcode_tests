@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cp -f ~/ws/AXIS_DATA/*.prog ~/ws 

@@ -1,0 +1,12 @@
+;LINEAR test1
+;LINEAR general case
+X0 Y0 Z0
+
+TM1000
+ABS
+
+LINEAR
+	X10 Y10 Z5
+;AXIS,stop
+
+

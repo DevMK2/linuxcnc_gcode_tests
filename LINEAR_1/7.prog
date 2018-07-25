@@ -1,0 +1,8 @@
+;LINEAR test7
+;LINEAR with TM command1
+X0 Y0 Z0
+
+TM3000
+LINEAR
+	X-20 Y-20 Z20
+;AXIS,stop

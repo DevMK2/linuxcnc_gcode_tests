@@ -1,0 +1,7 @@
+;DWELL test10
+;DWELL negative value test
+X0 Y0 Z0
+
+DWELL-3000
+X-30 Y30 Z-25
+;AXIS, stop

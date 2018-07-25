@@ -1,0 +1,11 @@
+;CIRCLE1 test8
+;CIRCLE1 DWELL command position test2
+X0 Y0 Z0
+
+CIRCLE1
+	DWELL2000
+	X20 Y-20 Z0 I10 J-10 Z0
+INC
+RAPID
+	Z-20
+;AXIS,stop

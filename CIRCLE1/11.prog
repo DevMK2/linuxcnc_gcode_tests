@@ -1,0 +1,11 @@
+;CIRCLE1 test11
+;CIRCLE1 normal command position test2
+X0 Y0 Z0
+
+CIRCLE1
+	NORMAL I5
+	X-30 Y-30 Z30 I-15 J-15 K15
+INC
+RAPID
+	Z30
+;AXIS,stop

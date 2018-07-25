@@ -1,0 +1,4 @@
+;AXIS_DATA test3
+X0 Y0 Z0
+X(5-15) Y(2*-5) Z(50/5)
+;AXIS,stop

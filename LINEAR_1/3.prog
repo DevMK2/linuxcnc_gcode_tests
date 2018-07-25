@@ -1,0 +1,6 @@
+;LINEAR test3
+;LIEAR write command in ONE-LINE
+X0 Y0 Z0
+
+LINEAR X-10 Y-10 Z10
+;AXIS,stop

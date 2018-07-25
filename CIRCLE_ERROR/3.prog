@@ -1,0 +1,8 @@
+;CIRCLE1 test2
+;CIRCLE1 center point equal to start point
+X0 Y0 Z0
+TM1000
+
+CIRCLE1
+ 	X-10 Y-10 Z0 I0 J0 K0
+;AXIS,stop
